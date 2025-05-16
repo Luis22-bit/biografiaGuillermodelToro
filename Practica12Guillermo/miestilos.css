@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(160, 175, 175);
+}
+
+/* el selector principal para el ancho de la página */
+#principal {
+  width: 800px;
+  margin: 0px auto;
+  background-color: rgb(224, 224, 186);
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding-left: 20px;
+}
+
+/* El selector foto para centrar y enmarcar la imagen */
+#foto {
+  width: 400px;
+  margin: 0% auto;
+  /* float: right; */
+  /* float: left; */
+  /* position: absolute;
+     top: 10px; left: 20px; */
+  /* position: relative;
+     top: 20px, left: 40px; */
+  background-color: aliceblue;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding: 8px;
+}
+
+/* El selector para los párrafos */
+p {
+  font-family: Arial, 'Courier New', Courier, monospace;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: arial;
+  color: rgb(18, 22, 22);
+  background-color: #f3ecf5;
+  /*border-style: solid;
+  border-color: #0b012e;
+  border-width: 2px;*/
+  margin: 14px;
+  padding: 20px;
+  border-radius: 14px;
+}
+h1, h2, h2, h3, h4, h5, h6 {
+  font-family: Arial;
+  color: black;
+}
